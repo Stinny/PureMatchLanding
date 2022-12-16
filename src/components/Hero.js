@@ -28,8 +28,18 @@ const Hero = () => {
           Support the app
         </button>
         <div className='flex items-center mt-6'>
-          <img src={AppStore} />
-          <img src={GooglePlay} className='ml-4' />
+          <a
+            href='https://apps.apple.com/us/app/pure-match/id1506240839'
+            target='_blank'
+          >
+            <img src={AppStore} />
+          </a>
+          <a
+            href='https://play.google.com/store/apps/details?id=org.purematch.purematch&gl=us'
+            target='_blank'
+          >
+            <img src={GooglePlay} className='ml-4' />
+          </a>
         </div>
       </div>
 
